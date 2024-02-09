@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bookingConfirmation">
+
+    <TextView
+        android:id="@+id/bookingText17"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Driver Name: Jesse Lazzari"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/summaryTitle2" />
+
+    <TextView
+        android:id="@+id/bookingText18"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:text="Driver Rating: ★★★★★"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText17" />
+
+    <TextView
+        android:id="@+id/bookingText19"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:text="Pickup Address: 1234 Example Rd."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText18" />
+
+    <TextView
+        android:id="@+id/bookingText20"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:text="Arrival Address: UBCO Campus"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText19" />
+
+    <TextView
+        android:id="@+id/bookingText21"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:text="Date: 12/05/2022"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText20" />
+
+    <TextView
+        android:id="@+id/bookingText23"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:text="Time: 4:30PM"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText21" />
+
+    <TextView
+        android:id="@+id/bookingText24"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:text="Payment: $7"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText23" />
+
+    <Button
+        android:id="@+id/mapButton1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:text="View Map"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingConfirmationText" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Simulate end of ride"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/homeButtonConfirmation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/summaryTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Summary"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="monospace"
+        android:text="WeRide"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homeButtonConfirmation"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bookingConfirmationText"
+        android:layout_width="261dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="150dp"
+        android:text="Your Booking has been Confirmed!"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvailablePassengers">
+
+    <TextView
+        android:id="@+id/bookingText29"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Passenger Name: Darion Pescada"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/bookingText36"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Passenger Name: Darion Pescada"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText35" />
+
+    <TextView
+        android:id="@+id/bookingText37"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="44dp"
+        android:text="Passenger Rating: ★★★"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText35" />
+
+    <TextView
+        android:id="@+id/bookingText38"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="64dp"
+        android:text="Pickup Address: UBCO Campus"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText35" />
+
+    <TextView
+        android:id="@+id/bookingText39"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="84dp"
+        android:text="Arrival Address: Walmart"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText35" />
+
+    <TextView
+        android:id="@+id/bookingText40"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="104dp"
+        android:text="Date: 12/11/2022"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText35" />
+
+    <TextView
+        android:id="@+id/bookingText41"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="124dp"
+        android:text="Time: 10:00AM"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText35" />
+
+    <TextView
+        android:id="@+id/bookingText42"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="144dp"
+        android:text="Payment: $9"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingText35" />
+
+    <TextView
+        android:id="@+id/bookingText30"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="52dp"
+        android:text="Passenger Rating: ★★★★"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/bookingText31"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="72dp"
+        android:text="Pickup Address: 1234 Example Rd."
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/bookingText32"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="92dp"
+        android:text="Arrival Address: UBCO Campus"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/bookingText33"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="112dp"
+        android:text="Date: 12/05/2022"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/bookingText34"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="132dp"
+        android:text="Time: 4:30PM"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/bookingText35"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="152dp"
+        android:text="Payment: $7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/rideMeDriver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:text="WeRide"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="375dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:text=" Available Carpool Passengers Near You:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rideMeDriver3" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="Accept job"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Accept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/bookingText29"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="Accept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/bookingText36"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

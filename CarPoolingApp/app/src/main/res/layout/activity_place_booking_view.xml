@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceBookingView">
+
+  <TextView
+      android:id="@+id/textView21"
+      android:layout_width="55dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="16dp"
+      android:text="Time:"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/pickupDate" />
+
+  <EditText
+      android:id="@+id/pickupTime"
+      android:layout_width="240dp"
+      android:layout_height="42dp"
+      android:ems="10"
+      android:inputType="time"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.502"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+  <TextView
+      android:id="@+id/placeBookingText1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Book a Trip"
+      android:textSize="32sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/rideMeDriver2" />
+
+  <TextView
+      android:id="@+id/rideMeDriver2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:fontFamily="monospace"
+      android:text="WeRide"
+      android:textSize="48sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/pickupAddressText"
+      android:layout_width="150dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="28dp"
+      android:text="Pickup Address:"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/placeBookingText1" />
+
+  <TextView
+      android:id="@+id/dropoffAddressText"
+      android:layout_width="155dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="16dp"
+      android:text="Arrival Address:"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/pickupAddress" />
+
+  <EditText
+      android:id="@+id/pickupAddress"
+      android:layout_width="240dp"
+      android:layout_height="42dp"
+      android:ems="10"
+      android:inputType="textShortMessage"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/pickupAddressText" />
+
+  <EditText
+      android:id="@+id/dropoffAddress"
+      android:layout_width="240dp"
+      android:layout_height="42dp"
+      android:ems="10"
+      android:inputType="textShortMessage"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/dropoffAddressText" />
+
+  <TextView
+      android:id="@+id/textView20"
+      android:layout_width="239dp"
+      android:layout_height="32dp"
+      android:layout_marginTop="16dp"
+      android:text="Date (MM/DD/YYYY):"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/dropoffAddress" />
+
+  <EditText
+      android:id="@+id/payment"
+      android:layout_width="240dp"
+      android:layout_height="42dp"
+      android:ems="10"
+      android:inputType="numberDecimal"
+      android:maxLength="4"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+  <TextView
+      android:id="@+id/textView19"
+      android:layout_width="85dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="16dp"
+      android:text="Payment:"
+      android:textSize="20dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/pickupTime" />
+
+  <EditText
+      android:id="@+id/pickupDate"
+      android:layout_width="240dp"
+      android:layout_height="42dp"
+      android:ems="10"
+      android:inputType="date"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+  <Button
+      android:id="@+id/button11"
+      android:layout_width="150dp"
+      android:layout_height="60dp"
+      android:layout_marginEnd="30dp"
+      android:layout_marginBottom="15dp"
+      android:text="Book now"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <Button
+      android:id="@+id/button12"
+      android:layout_width="150dp"
+      android:layout_height="60dp"
+      android:layout_marginStart="30dp"
+      android:layout_marginBottom="15dp"
+      android:text="home"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
